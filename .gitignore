@@ -1,0 +1,32 @@
+# Local .terraform directories
+.terraform/
+
+# Terraform plan and state files
+*.tfstate
+*.tfstate.backup
+
+# Crash log files
+crash.log
+
+# Terraform variable files with secrets
+*.tfvars
+*.tfvars.json
+
+# Sensitive override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# CLI configuration
+.terraformrc
+terraform.rc
+
+# Backup and swap files
+*.bak
+*.swp
+*.tmp
+
+# Ignore Terraform lock file if not needed
+# Uncomment below if you want to ignore the lock file in multi-env workflows
+# .terraform.lock.hcl
