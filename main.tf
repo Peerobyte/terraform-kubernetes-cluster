@@ -225,7 +225,7 @@ resource "openstack_networking_secgroup_rule_v2" "metrics_server" {
 locals {
   profiles = {
     small  = { masters = 1, workers = 2, volume_size = 20 }
-    medium = { masters = 2, workers = 2, volume_size = 30 }
+    medium = { masters = 2, workers = 3, volume_size = 30 }
     large  = { masters = 3, workers = 6, volume_size = 50 }
   }
   profile = local.profiles[var.cluster_profile]

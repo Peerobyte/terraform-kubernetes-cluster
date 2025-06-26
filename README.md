@@ -35,7 +35,7 @@ Defined in `main.tf` via `local.profiles`:
 | Profile | Masters | Workers | Volume Size (GB) |
 |---------|---------|---------|------------------|
 | small   | 1       | 2       | 20               |
-| medium  | 2       | 2       | 30               |
+| medium  | 2       | 3       | 30               |
 | large   | 3       | 6       | 50               |
 
 Use the `cluster_profile` variable to switch profiles.
@@ -46,6 +46,7 @@ Use the `cluster_profile` variable to switch profiles.
 
 ```
 terraform-kubernetes-cluster/
+├── .gitignore
 ├── main.tf                 # Main resources (network, VMs, etc.)
 ├── variables.tf            # Input variables
 ├── terraform.tfvars        # Default values and configuration
