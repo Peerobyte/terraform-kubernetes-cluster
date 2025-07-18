@@ -135,6 +135,6 @@ worker_ips = ["172.16.254.20", "172.16.254.21"]
 
 ## 📞 Support
 
-If you encounter issues with networking (e.g. external connectivity), ensure the `external_network_id` is correct. Contact your OpenStack support if needed.
+If you encounter issues with networking (e.g. external connectivity), ensure the `external_network_id` is correct. Contact your support if needed.
 
 ---
